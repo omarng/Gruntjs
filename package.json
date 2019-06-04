@@ -1,0 +1,19 @@
+{
+  "name": "gruntjs-playground",
+  "version": "1.0.0",
+  "description": "gruntjs playground",
+  "main": "app.js",
+  "scripts": {
+    "concat": "grunt concat",
+    "build-html": "grunt static-dev",
+    "build-html-watch": "grunt static-dev-watch"
+  },
+  "author": "Omar Ibrahim",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "static-dev": "0.0.2"
+  }
+}
